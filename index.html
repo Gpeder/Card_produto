@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="animated">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon-16x16.png" type="image/x-icon">
+    
+    <title>Card de Produto</title>
+</head>
+<body>
+    <div id="main">
+    <div id="image">
+        <button id="btn-360" onclick="toggle()">
+            <img src="./assets/360.svg" alt="button para começar o gif de animação">
+        </button>
+        <button id="btn-x" onclick="toggle()">
+            <img  src="./assets/x.svg" alt="button para parar a animação">
+        </button>
+
+        <img id="static" src="./assets/sofa.jpg" alt="sofa">
+        <img id="animated" src="./assets/sofa-gif.gif" alt="Sofá rodando">
+    </div>
+
+    <div id="card-details">
+        <h3>Código 42404</h3>
+        <h1>Sofá Margot II - Rosé</h1>
+        <p>R$ 4.000</p>
+        <button class="button">Adicionar à Cesta</button>
+    </div>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
